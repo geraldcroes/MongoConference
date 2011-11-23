@@ -21,7 +21,7 @@ $conference  ->setTitre('hello $Mongo;')
 
 //Fichiers slides
 $slides = new Slides();
-$slides->setFichier(__DIR__.'/datatest/helloMongo.pdf');
+$slides->setFichier(__DIR__.'/datatest/foo.txt');
 $conference->setSlides($slides);
 
 //Ajout d'un plan de présentation
